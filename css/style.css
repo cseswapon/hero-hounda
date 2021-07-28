@@ -64,3 +64,10 @@
 .text-name{
     color: #2483ff;
 }
+
+/* footer bg */
+
+.bg-footer{
+    background-color: #0B0D17;
+    color: white;
+}
