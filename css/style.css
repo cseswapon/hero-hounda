@@ -1,0 +1,44 @@
+/* header back ground */
+
+.bg-header{
+    background-color: #264653;
+}
+/* btn design */
+
+.bg-btn{
+    background-color: #E76F51;
+    color: white;
+    padding: 5px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* text-color */
+
+.text-color{
+    color: #E76F51;
+}
+
+.text-color::before{
+    content: "";
+    background: #E76F51;
+    height: 1px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(30px);
+    border-radius: 5px;
+}
+
+/* img-size */
+
+.img-size img{
+    width: 250px;
+    height: 200px;
+}
+
+.img-gray{
+    filter: grayscale(200%);
+}
