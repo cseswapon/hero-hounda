@@ -42,3 +42,25 @@
 .img-gray{
     filter: grayscale(200%);
 }
+
+/* client section */
+
+.text-client{
+    color: #E76F51;
+}
+
+/* awosome icon color */
+
+.full-star{
+    color: #E77C40;
+}
+
+.empty-star{
+    color: gray;
+}
+
+/* text - name color */
+
+.text-name{
+    color: #2483ff;
+}
