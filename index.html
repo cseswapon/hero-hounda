@@ -21,8 +21,45 @@
 <body>
     <!-- header section -->
     <header>
+        <!-- nav bar -->
+        <section>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-header fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/logo/logo.png" width="168" height="60">
+                        </a>
+                        <button class="navbar-toggler bg-custom" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <i class="fas fa-sliders-h text-white"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active fw-bold text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold text-white" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold text-white" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-3 fw-bold text-white" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <button class="btn btn-danger" type="submit">LogIn</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
         <!-- banner section -->
-        <section class="bg-header text-white pb-5">
+        <section class="bg-header text-white pb-5 overflwo">
             <div class="container">
                 <div class="row d-flex align-items-center ">
                     <div class="col-lg-6 col-md-12 mb-3">
@@ -37,14 +74,17 @@
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog">
-                                <div class="modal-content">
+                                <div class="modal-content lh-lg">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <h5 class="modal-title text-danger" id="staticBackdropLabel">Hello Jhon Deo</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <h5 class="text-dark">Are Your Purchase</h5>
+                                        <h5 class="text-dark">Are Your Purchase</h5><br>
+                                        <input type="text" placeholder="Enter '1' And Continue "><br><br>
+                                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Magni, sapiente.</p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-danger"
@@ -70,11 +110,12 @@
             <p class="fw-bold text-center text-color">Best bike collection</p><br>
             <div class="container mt-5">
                 <div class="row d-flex align-items-center justify-content-between">
-                    <div class="col-lg-4 col-md-12 img-size text-center mb-5">
+                    <!-- one image grayscale -->
+                    <div class="col-lg-4 col-md-12 img-size text-center img-gray mb-5">
                         <img class="img-fluid" src="./images/header-bike.png" alt="bike">
                     </div>
                     <div class="col-lg-4 col-md-12 img-size text-center mb-5">
-                        <img class="img-fluid" src="./images/feature-bike.jpg" alt="bike">
+                        <img class="img-fluid" src="./images/header-bike.png" alt="bike">
                     </div>
                     <!-- one image grayscale -->
                     <div class="col-lg-4 col-md-12 img-size text-center img-gray mb-5">
@@ -161,12 +202,12 @@
             </div>
         </section>
         <!-- FAQ -->
-        <section class="container">
+        <section class="container my-5">
             <h1 class="fw-bold text-center my-5">Frequently Asked <span class="text-client">Questions</span> </h1>
             <div>
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-12 mb-4">
-                        <img width="450" class="img-fluid" src="./images/faq.png" alt="faq image">
+                        <img width="450" class="img-fluid text-center" src="./images/faq.png" alt="faq image">
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="accordion gy-2" id="accordionPanelsStayOpenExample">
@@ -268,6 +309,214 @@
                 </div>
             </div>
         </section>
+        <!-- carusol section -->
+        <section class="bg-header text-white py-5 my-5">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row d-flex align-items-center ">
+                                    <div class="col-lg-6 col-md-12 mb-3">
+                                        <p class="fw-light">Computer-controlled digital transistorized with electronic
+                                            advance</p><br>
+                                        <h1 class="fw-bolder">Yamaha R15</h1><br>
+                                        <p class="lh-base fw-light">Amet minim mollit non deserunt ullamco est sit
+                                            aliqua dolor do amet
+                                            sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <br>
+                                        <button type="submit" class="bg-btn" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">Purchase</button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content lh-lg">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title text-danger" id="staticBackdropLabel">
+                                                            Hello Jhon Deo</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 class="text-dark">Are Your Purchase</h5><br>
+                                                        <input type="text"
+                                                            placeholder="Enter '1' And Continue "><br><br>
+                                                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur,
+                                                            adipisicing elit.
+                                                            Magni, sapiente.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-success">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <img class="img-fluid" src="./images/feature-bike-removebg-preview.png"
+                                            alt="header-bike">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row d-flex align-items-center ">
+                                    <div class="col-lg-6 col-md-12 mb-3">
+                                        <p class="fw-light">Computer-controlled digital transistorized with electronic
+                                            advance</p><br>
+                                        <h1 class="fw-bolder">Honda CBR 300R</h1><br>
+                                        <p class="lh-base fw-light">Amet minim mollit non deserunt ullamco est sit
+                                            aliqua dolor do amet
+                                            sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <br>
+                                        <button type="submit" class="bg-btn" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">Purchase</button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content lh-lg">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title text-danger" id="staticBackdropLabel">
+                                                            Hello Jhon Deo</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 class="text-dark">Are Your Purchase</h5><br>
+                                                        <input type="text"
+                                                            placeholder="Enter '1' And Continue "><br><br>
+                                                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur,
+                                                            adipisicing elit.
+                                                            Magni, sapiente.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-success">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <img class="img-fluid img-gray" src="./images/header-bike.png"
+                                            alt="header-bike">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row d-flex align-items-center ">
+                                    <div class="col-lg-6 col-md-12 mb-3">
+                                        <p class="fw-light">Computer-controlled digital transistorized with electronic
+                                            advance</p><br>
+                                        <h1 class="fw-bolder">Honda CDI 100R</h1><br>
+                                        <p class="lh-base fw-light">Amet minim mollit non deserunt ullamco est sit
+                                            aliqua dolor do amet
+                                            sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <br>
+                                        <button type="submit" class="bg-btn" data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">Purchase</button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content lh-lg">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title text-danger" id="staticBackdropLabel">
+                                                            Hello Jhon Deo</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 class="text-dark">Are Your Purchase</h5><br>
+                                                        <input type="text"
+                                                            placeholder="Enter '1' And Continue "><br><br>
+                                                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur,
+                                                            adipisicing elit.
+                                                            Magni, sapiente.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-success">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <img class="img-fluid" src="./images/header-bike.png" alt="header-bike">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+                </div>
+            </div>
+        </section>
+        <section class="container py-5 my-5">
+            <h1 class="fw-bold text-center my-5">Contact <span class="text-client">Us</span> </h1>
+            <div>
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-12">
+                        <img width="450" class="img-fluid text-center" src="./images/contact.png" alt=" contact img">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleDataList" class="form-label">Datalist example</label>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Type to Hunda Name..."><br>
+                            <datalist id="datalistOptions">
+                                <option value="CDI - 100R">
+                                <option value="KTM">
+                                <option value="R-15">
+                                <option value="YAMAHA">
+                                <option value="HUNK">
+                            </datalist>
+                            <label for="exampleFormControlTextarea1" class="form-label">Text Your Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Text Here ..." rows="3"></textarea><br>
+                            <button type="submit" class="bg-btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer section -->
     <footer class="bg-footer">
@@ -280,11 +529,11 @@
                     </div>
                     <div class="d-flex fw-light align-items-center">
                         <p>About</p>
-                        <p class="ms-4">Features</p>
-                        <p class="ms-4">Pricing</p>
-                        <p class="ms-4">Careers</p>
-                        <p class="ms-4">Help</p>
-                        <p class="ms-4">Privacy Policy</p>
+                        <p class="p-1">Features</p>
+                        <p class="p-1">Pricing</p>
+                        <p class="p-1">Careers</p>
+                        <p class="p-1">Help</p>
+                        <p class="p-1">Privacy Policy</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -294,7 +543,8 @@
                     </div>
                 </div>
             </div>
-            <p style="margin: 0px; padding: 0px;" class="fw-light text-center pb-3">&copy; 2020 bike. All rights reserved</p>
+            <p style="margin: 0px; padding: 0px;" class="fw-light text-center pb-3">&copy; 2020 bike. All rights
+                reserved</p>
         </div>
     </footer>
     <!-- bootstrap js -->
