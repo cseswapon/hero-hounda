@@ -83,3 +83,56 @@
 .bg-custom{
     color: white;
 }
+
+/* animation image*/
+
+.bike-img img{
+    visibility: hidden;
+    animation: img 3s ease-in-out 4s 1 alternate forwards;
+}
+
+@keyframes img{
+    0%{
+        transform: translateX(500px)scale(.5);
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0px)scale(1);
+        visibility: visible;
+    }
+}
+/* animation text */
+
+.text-animation{
+    visibility: hidden;
+    animation: text 3s ease-in-out 0s 1 alternate forwards;
+}
+
+@keyframes text{
+    0%{
+        transform: translateX(-500px);
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+/* btn animation */
+
+.btn-animation{
+    visibility: hidden;
+    animation: btn 3s ease-in-out 1.5s 1 alternate forwards;
+}
+
+@keyframes btn{
+    0%{
+        transform: translateX(-500px);
+        visibility: hidden;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
